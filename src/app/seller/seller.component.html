@@ -1,0 +1,42 @@
+<!-- <div> <a routerLink="/products" routerLinkActive="active" class="nav-link">Product List</a></div>  
+      
+     
+     <div> <a routerLink="/createproducts" routerLinkActive="active" class="nav-link">Add Product</a></div>  
+    
+      
+        <div>  <a routerLink="/orders" routerLinkActive="active" class="nav-link">Order List</a></div>  
+     
+    
+            <div> <a routerLink="/payment" routerLinkActive="active" class="nav-link">Payment List</a></div>  
+       -->
+
+       <div class="row">    
+        <div class="button">
+            <button mat-raised-button color="warn" style="width: 100px"  routerLink="/products">Product List</button>
+        </div>
+    
+        <div class="button">
+            <button mat-raised-button color="warn" style="width: 150px"  routerLink="/createproducts">Add Product</button>
+        </div>
+    
+        <div class="button">
+            <button mat-raised-button color="warn" style="width: 150px"  routerLink="/orders">Order List</button>
+        </div>
+    
+        <div class="button">
+            <button mat-raised-button color="warn" style="width: 150px"  routerLink="/payment">Payment List</button>
+        </div>
+    
+        <div class="button">
+            <button mat-raised-button color="warn" style="width: 100px"  routerLink="/home">Log Out</button>
+        </div>
+    </div>    
+        
+        
+ 
+    
+    
+    <div class="container">
+        <router-outlet></router-outlet>
+    </div>
+  

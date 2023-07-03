@@ -15,6 +15,15 @@ import { OrderdetailsComponent } from './orderdetails/orderdetails.component';
 import { CreatepaymentComponent } from './createpayment/createpayment.component';
 import { PaymentlistComponent } from './paymentlist/paymentlist.component';
 
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { HomeComponent } from './home/home.component';
+import { BuyerComponent } from './buyer/buyer.component';
+import { SellerComponent } from './seller/seller.component';
+
+import { SuccessComponent } from './success/success.component';
+import { ContactComponent } from './contact/contact.component';
+
 
 
 @NgModule({
@@ -28,7 +37,15 @@ import { PaymentlistComponent } from './paymentlist/paymentlist.component';
     OrderlistComponent,
     OrderdetailsComponent,
     CreatepaymentComponent,
-    PaymentlistComponent
+    PaymentlistComponent,
+    LoginComponent,
+    RegisterComponent,
+    HomeComponent,
+    BuyerComponent,
+    SellerComponent,
+   
+    SuccessComponent,
+        ContactComponent
   ],
   imports: [
     BrowserModule,
